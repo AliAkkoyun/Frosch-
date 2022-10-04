@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-1dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/start"
+        android:textColor="@android:color/black"
+        android:textSize="64sp" />
+
+    <TextView
+        android:id="@+id/highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="High Score"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/voiceControl"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/volume_up" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+
+        android:src="@drawable/start" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/start"
+        android:layout_below="@+id/start"
+        android:layout_alignStart="@+id/start"
+        android:layout_alignEnd="@+id/start"
+        android:layout_marginStart="-273dp"
+        android:layout_marginTop="-203dp"
+        android:layout_marginEnd="-271dp"
+        android:layout_marginBottom="-3dp"
+        android:src="@drawable/frosch_lablub" />
+
+
+</RelativeLayout>
